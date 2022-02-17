@@ -563,3 +563,257 @@ nav .nav-container .menu-list .line{
         margin-right: 10px;
     }
 }
+
+
+
+
+
+
+
+
+/* ABOUT SECTION STYLING */
+#about{
+    width: 100%;
+    display: flex;
+    padding-top: 60px;
+}
+#about .about-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#about .about-container .header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#about .about-container .header .header-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#about .about-container .header h2{
+    color: white;
+    font-size: 3rem;
+}
+#about .about-container .header span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #ffb001;
+    height: 2px;
+    margin-top: 4px;
+}
+#about .about-container .header span p{
+    color: #ffb001;
+    background-color: #09102d;
+    padding: 0 3px;
+    font-weight: 600;
+}
+
+#about .about-container .content{
+    width: 100%;
+    padding-top: 50px;
+    padding-left:3%;
+    padding-right: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#about .about-container .content .left-content{
+    margin-right:50px ;
+}
+#about .about-container .content .left-content img{
+    width: 460px;
+    height: auto;
+}
+#about .about-container .content .right-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+#about .about-container .content .right-content h1{
+    color: white;
+    font-size: 2.7rem;
+    margin-bottom: 5px;
+    font-family: 'quicksand';
+    font-weight: 500;
+}
+#about .about-container .content .right-content p{
+    color: white;
+    font-size: 1.01rem;
+    margin-top: 20px;
+    font-family: 'poppins';
+}
+#about .about-container .content .right-content a{
+    color: #fff;
+    margin-top: 30px;
+    padding: 8px 50px;
+    background-color: #0250CA;
+    text-decoration: none;
+    border-radius: 6px;
+    border: 1px solid #0250CA;
+    font-weight: 500;
+    display: flex;
+    transition: all 0.3s ease;
+}
+#about .about-container .content .right-content a:hover{
+    color: #ffb001;
+    background-color: transparent;
+    border: 1px solid #ffb001;
+}
+@media (max-width:970px) {
+    #about .about-container .content .left-content img{
+        width: 390px;
+    }
+    #about .about-container .content .right-content h1{
+        font-size: 2.3rem;
+        margin-bottom: 0px;
+    }
+    #about .about-container .content .right-content p{
+        color: white;
+        font-size: 0.95rem;
+        margin-top: 10px;
+        font-family: 'poppins';
+    }
+    #about .about-container .content .right-content a{
+        color: #fff;
+        margin-top: 20px;
+    }
+}
+@media (max-width:870px) {
+    #about .about-container .content .left-content img{
+        width: 320px;
+    }
+    #about .about-container .content .right-content h1{
+        font-size: 2.1rem;
+        margin-bottom: 0px;
+    }
+    #about .about-container .content .right-content p{
+        color: white;
+        font-size: 0.85rem;
+        margin-top: 10px;
+        font-family: 'poppins';
+    }
+    #about .about-container .content .right-content a{
+        color: #fff;
+        margin-top: 10px;
+        padding: 5px 35px;
+        font-size: 0.9rem;
+    }
+}
+@media (max-width:760px) {
+    #about .about-container .content .left-content img{
+        width: 260px;
+    }
+    #about .about-container .content .right-content h1{
+        font-size: 1.8rem;
+        margin-bottom: 0px;
+    }
+    #about .about-container .content .right-content p{
+        color: white;
+        font-size: 0.82rem;
+        margin-top: 10px;
+        font-family: 'poppins';
+    }
+    #about .about-container .content .right-content .p3{
+        display: none;
+    }
+    #about .about-container .content .right-content a{
+        color: #fff;
+        margin-top: 10px;
+        padding: 4px 30px;
+        font-size: 0.8rem;
+    }
+}
+@media (max-width:575px) {
+    #about .about-container .content{
+        width: 100%;
+        padding-top: 50px;
+        padding-left:4%;
+        padding-right: 4%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #about .about-container .content .left-content{
+        margin-right:0px ;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    #about .about-container .content .left-content img{
+        width: 360px;
+        height: auto;
+    }
+    #about .about-container .content .right-content{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 40px;
+        width: 100%;
+    }
+    #about .about-container .content .right-content h1{
+        color: white;
+        font-size: 2rem;
+        margin-bottom: 5px;
+        font-family: 'quicksand';
+        font-weight: 500;
+        
+    }
+    #about .about-container .content .right-content p{
+        color: white;
+        font-size: 1.01rem;
+        margin-top: 20px;
+        font-family: 'poppins';
+    }
+    #about .about-container .content .right-content a{
+        color: #fff;
+        margin-top: 30px;
+        padding: 8px 50px;
+        background-color: #0250CA;
+        text-decoration: none;
+        border-radius: 6px;
+        border: 1px solid #0250CA;
+        font-weight: 500;
+        display: flex;
+        transition: all 0.3s ease;
+    }
+}
+@media (max-width:400px) {
+    #about .about-container .content .left-content img{
+        width: 93%;
+        height: auto;
+    }
+}
+@media (max-width:990px) {
+    #about .about-container .header h2{
+        font-size: 2.6rem;
+    }
+}
+@media (max-width:790px) {
+    #about .about-container .header h2{
+        font-size: 2.3rem;
+        font-weight: 600;
+    }
+    #about .about-container .header span p{
+        font-size: 0.85rem;
+    }
+}
+@media (max-width:575px) {
+    #about .about-container .header h2{
+        font-size: 2.1rem;
+        font-weight: 600;
+    }
+    #about .about-container .header span p{
+        font-size: 0.8rem;
+    }
+}
